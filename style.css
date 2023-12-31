@@ -1,0 +1,318 @@
+
+@import url('https://fonts.googleapis.com/css2? family= Righteous & family= Sarala & display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background: linear-gradient(0.25turn, #413939, #E1C03A);
+}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.cabecalho-imagem{
+    width: 70px;
+}
+.cabecalho-menu{
+    display: flex;
+    gap: 32px;
+}
+.cabecalho-menu-item{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:#FDF6DC;
+    font-weight: 400;
+    font-size: 18px;
+}
+.conteudo{
+    border-top: 0.4px solid #FDF6DC;
+    margin-bottom: 48px;
+}
+.conteudo-principal{
+    margin: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.conteudo-principal-imagem{
+    width: 400px;
+}
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;   
+}
+.conteudo-principal-escrito-subtitulo{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    color: #FDF6DC ;
+    font-size: 24px;
+}
+.conteudo-principal-escrito-titulo{
+    color: #E1C03A;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    font-size: 54px;
+    font-weight: 400;
+    text-shadow: #E1C03A 1px 0 5px;
+}
+.conteudo-principal-buttons{
+    display:flex;
+    gap: 50px;
+    justify-content: space-between;
+
+}
+.conteudo-principal-escrito-button1{
+    background-color: #E1C03A;
+    box-shadow: #FDF6DC 1px 0 5px;
+    width: 180px;
+    height: 60px;
+    border-radius: 20px;
+    border: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    font-size: 24px;
+    font-weight: 400;
+    color: #FDF6DC;
+}
+.conteudo-principal-escrito-button2{
+    background-color: #E1C03A;
+    box-shadow: #FDF6DC 1px 0 5px;
+    width: 180px;
+    height: 60px;
+    border-radius: 20px;
+    border: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    font-size: 24px;
+    font-weight: 400;
+    color: #FDF6DC;
+
+}
+
+.projetos{
+    border-top: 0.4px solid #FDF6DC;
+    margin-bottom: 50px;
+}
+.conteudo-projetos{
+    margin-top: 50px;
+}
+.conteudo-projetos-texto{
+    color: #E1C03A;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.linha{
+    border-top: 0.4px solid #FDF6DC;
+    margin: auto;
+}
+.conteudo-projetos-texto-banners{
+    text-shadow: 1px 0 5px #FDF6DC;
+    color:#413939; 
+    margin-bottom: ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+.conteudo-projetos-banners{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.conteudo-projeto-imagem1{
+    width: 600px;
+}
+.conteudo-projeto-imagem2{
+    width: 600px;
+}
+.projeto-fleurs{
+    background-color: white;
+}
+.conteudo-projeto-fleurs-titulo{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    color: #ABC2AB;
+    font-size: 40px;
+    
+}
+.conteudo-projeto-fleurs-imagens-logo-fleurs{
+    align-items: center;
+    display: flex;
+    margin-left: 100px;
+    gap: 30px; 
+}
+.conteudo-projeto-fleurs-imagens-logo{
+    box-shadow: 1px 0 5px  #ABC2AB;
+}
+.conteudo-projeto-fleurs-imagem3{
+    width: 300px;
+    box-shadow: 1px 0 5px  #ABC2AB;
+}
+.conteudo-principal-fleurs-velas-personalizadas{
+    box-shadow: 1px 0 5px  #ABC2AB;
+}
+.conteudo-projeto-fleurs-p{
+    color: #ABC2AB;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    justify-content: center;
+    width: 1080px;
+    font-size: 18px;
+    margin-left: 130px;
+    margin-top: 60px;
+}
+.conteudo-principal-fleurs-velas-personalizadas{
+    height: 400px;
+    width: 600px;
+}
+.conteudo-projeto-fleurs-imagens-logo-fleurs{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+.conteudo-projeto-fleurs-imagens-logo{
+    height:  200px;
+}
+
+.projeto-fleurs-pagina-2{
+    background-color: white;
+
+}
+.projeto-fleurs-pagina-2-texto-imagem-1{
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+}
+.projeto-fleurs-pagina-2-p-1{
+    margin-top: 300px;
+    width: 400px;
+    height: 120px;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #EDECC3;
+    text-align: center;
+    margin-left: 200px;
+    padding: 18px;
+    color: #8B8483;
+}
+.projeto-fleurs-pagina-2-img-1{
+    width: 400px;
+    margin-top: 100px;
+    box-shadow: 5px 0 8px  #ABC2AB;
+}
+.projeto-fleurs-pagina-2-texto-imagem2{
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+}
+.projeto-fleurs-pagina-2-img-2{
+    width: 600px;
+    height: 400px;
+    margin-left: 100px;
+    margin-top: 100px;
+    box-shadow: 5px 0 8px  #ABC2AB;
+    margin-bottom: 100px;
+}
+.projeto-fleurs-pagina-2-p-2{
+    margin-top: 250px;
+    width: 400px;
+    height: 100px;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #EDECC3;
+    text-align: center;
+    margin-right: 200px;
+    padding: 18px;
+    color: #8B8483;
+}
+.pirates-beer{
+    background-color: #373839;
+}
+.projeto-pirates-beer-titulo{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:#F1DE42;
+    text-shadow: 1px 0 5px #F1DE42;
+    font-size: 18px;
+    
+}
+.projeto-pirates-beer-imagens{
+    align-items: center;
+    display: flex;
+    margin-left: 220px;
+    gap: 80px; 
+}
+.projeto-pirates-beer-logo{
+    box-shadow: 1px 0 5px  #781821;
+    width: 200px;
+}
+.projeto-pirates-beer-folder{
+    width: 500;
+    height: 300px;
+}
+.projeto-pirates-beer-texto1{
+    margin-top: 60px;
+    color: #F1DE42;
+    width: 800px;
+    height: 120px;
+    font-size: 20px;
+    margin-left: 250px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center; 
+}
+.pirates-beer-2{
+    background-color: #373839;
+}
+.projeto-pirates-beer-menu-p{
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    margin-left: 100px;
+}
+.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    border-top: 0.4px solid #FDF6DC;
+    width: 500px;
+}
+
+
